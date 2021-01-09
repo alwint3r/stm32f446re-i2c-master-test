@@ -8,3 +8,13 @@ This firmware is used to test the communication with the firmware on [alwint3r/e
 
 The STM32 device reads the distance measurement from the ESP32 device every 30 seconds and then print the result to the UART2 connected to the on-board ST-LINK.
 
+## Wiring Information
+
+Pin | Function
+----|-----------------
+PB9 | I2C SDA
+PB8 | I2C SCL
+PA2 | "Debug" UART TX
+PA3 | "Debug" UART RX
+
+
